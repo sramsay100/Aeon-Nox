@@ -231,17 +231,6 @@
 			<control type="group">
 				<left>1180</left>
 				<control type="image">
-					<left>200</left>
-					<width>500</width>
-					<height>500</height>
-					<aligny>top</aligny>
-					<aspectratio align="left">keep</aspectratio>
-					<fadetime>300</fadetime>
-					<animation effect="rotate" end="-360" center="auto" time="4800" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
-					<texture background="true" fallback="special://skin/extras/cdart/default.png" diffuse="thumbs/cdart_mask.png">$INFO[Player.FolderPath]cdart.png</texture>
-					<bordersize>30</bordersize>
-				</control>
-				<control type="image">
 					<description>Cover image</description>
 					<width>500</width>
 					<height>500</height>
